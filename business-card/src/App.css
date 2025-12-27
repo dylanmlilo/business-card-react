@@ -1,0 +1,135 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 550px;
+  min-height: 100vh;
+  background-color: #23252C;
+  color: #ffffff;
+}
+
+.image-container {
+  width: 317px;
+  height: 317px;
+  background: url("./assets/images/dylanmliloprofile.jpg") center top;
+  margin-top: 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-details-container {
+  width: 317px;
+  height: 399px;
+  background-color: #1a1b21;
+}
+
+h1.name {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 15px;
+}
+
+h2.occupation {
+  font-size: 13px;
+  color: #f3bf99;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  display: flex;
+  margin: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+a.btn {
+  width: 130px;
+  height: 34px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+a.btn-email {
+  background-color: #ffffff;
+  color: #23252C;
+}
+
+a.btn-email:hover {
+  background-color: #8d8d8d;
+  box-shadow: 0 4px 12px rgba(234, 67, 53, 0.3);
+}
+
+a.btn-linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+a.btn-linkedin:hover {
+  background-color: #96d0ef;
+  box-shadow: 0 4px 12px rgba(0, 119, 181, 0.3);
+}
+
+a.btn:focus {
+  outline: 2px solid #4d90fe;
+  outline-offset: 2px;
+}
+
+.details-container {
+  margin: 20px 20px;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: left;
+  color: #F5F5F5;
+  margin: 0;
+}
+
+p {
+  font-size: 11px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 150%;
+  color: #DCDCDC;
+  margin-top: 5px;
+}
+
+footer {
+  background: #161619;
+}
+
+.social-icons {
+  width: 317px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  width: 30px;
+  height: 30px;
+  color: #161619;
+  background-color: #918E9B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.social-icons a:hover {
+  background-color: #0077b5;
+}
