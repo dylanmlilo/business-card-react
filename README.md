@@ -38,8 +38,8 @@ This project showcases a clean, responsive personal profile with contact buttons
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/digital-business-card.git
-cd digital-business-card
+git clone https://github.com/dylanmlilo/business-card-react.git
+cd business-card-react
 npm install
 npm run dev
 
