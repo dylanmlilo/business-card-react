@@ -1,0 +1,40 @@
+export default function Main() {
+  return (
+    <main>
+      <section className="card-details-container">
+        <h1 className="name">Dylan Mlilo</h1>
+        <h2 className="occupation">Civil Engineer/Software Engineer</h2>
+        <div className="btn-container">
+          <a href="mailto:dylanmlilo12@gmail.com" className="btn btn-email">
+            <i className="fas fa-envelope"></i>
+            <span>Email</span>
+          </a>
+          <a
+            href="https://linkedin.com/in/dylan-mlilo-337b61184"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-linkedin"
+          >
+            <i className="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+        <article className="details-container">
+          <h3>About</h3>
+          <p>
+            A Civil and Water Engineer with a passion for continuous learning
+            and problem solving. I enjoy working in teams and applying new
+            knowledge to real world challenges. Always looking for ways to
+            improve efficiency as I combine engineering expertise with software
+            development skills to automate tasks and optimise workflows.
+          </p>
+          <h3>Interests</h3>
+          <p>
+            Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+            Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+          </p>
+        </article>
+      </section>
+    </main>
+  );
+}
